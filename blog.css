@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+}
+
+.menu-btn{
+    color: #424244;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar{
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #0971f1;
+    box-shadow: 0 0 14px rgba(0, 0, 0.3);
+}
+
+.navbar .logo h1{
+    color: #f0f40b;
+    font-size: 35px;
+    font-family: Arial;
+    float: left;
+}
+.navbar .search{
+    width: 330px;
+    margin: auto;
+    float: right;
+    justify-content: center;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+    display: block;
+    margin-left: 30px;
+    color: #ffffff;
+    border-bottom: 8px solid transparent;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar .menu li a i{
+    color: #ccfd61;
+}
+
+.navbar .menu li a:hover{
+    border-bottom: 4px solid #c2e400;
+}
+#blog2{
+   background-image: url(img2/featur/product/banner/location/blog/01.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 40vh;
+}
+#blog2 .blog3{
+    color: #fff;
+    text-align: center;
+    
+}
+#blog2 .blog3 h1{
+    font-size: 35px;
+    position: relative;
+    top: 60px;
+}
+#blog2 .blog3 h3{
+    font-size: 25px;
+    position: relative;
+    top: 60px;
+}
+#blog2 .blog3 h1:hover{
+    color: rgb(3, 3, 137);
+}
+#blog img{
+    width: 350px; 
+    height: 350px; 
+    object-fit: cover;
+    object-position: 25% 99%;
+    margin:1% ;         
+}
+#blog .blog1{
+  position: relative;
+  left: 30%;
+  bottom: 300px;
+}
+#contact{
+    height: 40vh;
+    width: 100%;
+    margin: 20px;
+    margin-left: -14px;
+
+   
+}
+#contact .phone{
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 30px;
+    box-shadow: 1px sienna;
+
+}
+#contact .phone1{
+    display: flex;
+    justify-content: space-between;
+}
+#contact .phone1 img{
+   height: 50px;
+   width: 160px;
+}
+#sing .sing1{
+    background-color: #000000;
+    height: 20vh;
+    border-radius: 5px;
+    height: 300px;
+    color: #ffffff;
+}
+#sing .sing1 h1{
+    font-size: 45px;
+    position: relative;
+    left: 20px;
+    top: 15px;
+}
+#sing .sing1 h3{
+    font-size: 24px;
+    position: relative;
+    left: 20px;
+}
+#sing .sing1 button{
+    font-size: 30px;
+    margin-left: 27px;
+    color: #ffffff;
+    border-radius: 4px;
+    background-color: #170253;
+}
+#sing .sing1 button:hover{
+    background-color: #5f0303;
+}
+
